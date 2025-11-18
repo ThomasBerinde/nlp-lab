@@ -3,11 +3,11 @@
 # -----------------------
 
 [tool.poetry]
-name = "project_name"
+name = "nlp_lab"
 version = "0.1.0"
 description = "A clean Python project template with linting, testing, and pre-commit setup."
 authors = ["Your Name <example@mail.com>"]
-packages = [{ include = "project_name", from = "src" }]
+packages = [{ include = "nlp_lab", from = "src" }]
 
 # -----------------------
 # DEPENDENCIES
@@ -19,6 +19,12 @@ python = ">=3.11,<3.15"
 # -----------------------
 # DEVELOPMENT DEPENDENCIES
 # -----------------------
+numpy = "^2.3.5"
+pandas = "^2.3.3"
+torch = "^2.9.1"
+datasets = "^4.4.1"
+tqdm = "^4.67.1"
+transformers = "^4.57.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"                                    # Testing framework
@@ -82,4 +88,3 @@ select = ["E", "F", "I", "B", "ANN"]            # E: pycodestyle (style), F: pyf
 ignore = ["E501"]                               # Ignore long line warning (handled by formatter)
 line-length = 120                               # Max allowed line length for Ruff
 target-version = "py311"                        # Target Python version for Ruff linting
-

@@ -1,55 +1,33 @@
-# 🧩 My Template Project
+# 🧪 NLP Lab
 
-A clean and modern Python project template with **Poetry**, **Ruff**, **Mypy**, **Pytest**, and **Pre-commit** configured out of the box.
-
----
-
-## 🚀 Features
-
-- 🧱 Standardized project layout (`src/` + `tests/`)
-- 🔄 Automatic first-run project initialization  
-  (renames `project_name/` → `<your-folder-name>/`, updates `pyproject.toml`, installs the project and pre-commit hooks)
-- 🧹 Auto linting & formatting with [Ruff](https://github.com/astral-sh/ruff)
-- 🔍 Static type checking via [Mypy](https://mypy.readthedocs.io/)
-- 🧪 Testing setup with [Pytest](https://pytest.org/)
-- 🪝 Git hooks via [Pre-commit](https://pre-commit.com/)
-- ⚙️ Dependency management using [Poetry](https://python-poetry.org/)
+A hands-on **Natural Language Processing lab** containing implementations and experiments across several cornerstone NLP tasks.
+This repository is meant as a playground for exploring, prototyping, and understanding key concepts in modern NLP.
 
 ---
 
-## 📦 Project Structure
+## ✨ Features
 
-```text
-.
-├── scripts/
-│   ├── init_template.py
-│   ├── setup.ps1
-│   └── setup.sh
-├── src/
-│   └── project_name/
-│       └── __init__.py
-├── tests/
-│   └── test_sample.py
-├── .gitignore
-├── .pre-commit-config.yaml
-├── README.md
-└── pyproject.toml
-```
+### 🔍 Natural Language Inference (NLI)
+- Entailment / contradiction classification
+- Dataset loading, preprocessing, and tokenization
+- Model training and evaluation
 
-## 🧰 Setup Instructions
+### 🎵 Lyric Generation
+- Sequence modeling for creative text generation
+- Experiments with transformers and recurrent models
+- Sampling strategies (greedy, top-k, nucleus)
 
-### 1️⃣ Initialize and Install Dependencies
+### 🧩 Tokenization & Text Processing
+- WordPiece / BPE tokenization examples
+- Custom tokenizers
+- Preprocessing pipelines
 
-Run the setup script for your platform:
+### 📝 Other NLP Tasks (ongoing)
+- Text classification
+- Semantic similarity
+- Language modeling
+- Prompting & in-context experiments
 
-**On Linux/macOS or Windows (Git Bash):**
+---
 
-```bash
-./scripts/setup.sh
-```
-
-**On Windows (PowerShell):**
-
-```powershell
-./scripts/setup.ps1
-```
+## 📁 Project Structure (example)
